@@ -1,16 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Home from './Home';
-import  Footer from './Footer';
-import Nav from './Nav';
+import Navbar from "./components/Navbar";
 
-function App() {
- <Nav />
- <Home />
- <Footer />
+function App() 
+ {
+   return<Navbar />
+ 
 
-  
+   
 
-}
+};
 
 export default App;
